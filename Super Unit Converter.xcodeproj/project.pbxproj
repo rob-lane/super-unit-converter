@@ -20,7 +20,11 @@
 		840D43E818CEB83900FE8387 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 840D43C718CEB83900FE8387 /* Foundation.framework */; };
 		840D43E918CEB83900FE8387 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 840D43CB18CEB83900FE8387 /* UIKit.framework */; };
 		840D43F118CEB83900FE8387 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 840D43EF18CEB83900FE8387 /* InfoPlist.strings */; };
-		840D43F318CEB83900FE8387 /* Super_Unit_ConverterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 840D43F218CEB83900FE8387 /* Super_Unit_ConverterTests.m */; };
+		840D43FD18CEBC4F00FE8387 /* RJUnitConverterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 840D43FC18CEBC4F00FE8387 /* RJUnitConverterTests.m */; };
+		840D440018CEBC9300FE8387 /* RJUnitConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 840D43FF18CEBC9300FE8387 /* RJUnitConverter.m */; };
+		84113D7018D2D2CB00844BF7 /* RJFeetToInchesStrategyTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 84113D6F18D2D2CB00844BF7 /* RJFeetToInchesStrategyTest.m */; };
+		8428FD6718D14461002D5A86 /* RJConversionStrategy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8428FD6618D14461002D5A86 /* RJConversionStrategy.m */; };
+		8428FD6D18D145A3002D5A86 /* RJFeetToInchesStrategy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8428FD6C18D145A3002D5A86 /* RJFeetToInchesStrategy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,7 +56,14 @@
 		840D43E618CEB83900FE8387 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		840D43EE18CEB83900FE8387 /* Super Unit ConverterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Super Unit ConverterTests-Info.plist"; sourceTree = "<group>"; };
 		840D43F018CEB83900FE8387 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		840D43F218CEB83900FE8387 /* Super_Unit_ConverterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Super_Unit_ConverterTests.m; sourceTree = "<group>"; };
+		840D43FC18CEBC4F00FE8387 /* RJUnitConverterTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RJUnitConverterTests.m; sourceTree = "<group>"; };
+		840D43FE18CEBC9300FE8387 /* RJUnitConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RJUnitConverter.h; sourceTree = "<group>"; };
+		840D43FF18CEBC9300FE8387 /* RJUnitConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RJUnitConverter.m; sourceTree = "<group>"; };
+		84113D6F18D2D2CB00844BF7 /* RJFeetToInchesStrategyTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RJFeetToInchesStrategyTest.m; sourceTree = "<group>"; };
+		8428FD6518D14461002D5A86 /* RJConversionStrategy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RJConversionStrategy.h; sourceTree = "<group>"; };
+		8428FD6618D14461002D5A86 /* RJConversionStrategy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RJConversionStrategy.m; sourceTree = "<group>"; };
+		8428FD6B18D145A3002D5A86 /* RJFeetToInchesStrategy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RJFeetToInchesStrategy.h; sourceTree = "<group>"; };
+		8428FD6C18D145A3002D5A86 /* RJFeetToInchesStrategy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RJFeetToInchesStrategy.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +123,7 @@
 		840D43CD18CEB83900FE8387 /* Super Unit Converter */ = {
 			isa = PBXGroup;
 			children = (
+				8428FD6418D1443F002D5A86 /* Converstion Strategy */,
 				840D43D618CEB83900FE8387 /* RJAppDelegate.h */,
 				840D43D718CEB83900FE8387 /* RJAppDelegate.m */,
 				840D43D918CEB83900FE8387 /* Main.storyboard */,
@@ -119,6 +131,8 @@
 				840D43DD18CEB83900FE8387 /* RJViewController.m */,
 				840D43DF18CEB83900FE8387 /* Images.xcassets */,
 				840D43CE18CEB83900FE8387 /* Supporting Files */,
+				840D43FE18CEBC9300FE8387 /* RJUnitConverter.h */,
+				840D43FF18CEBC9300FE8387 /* RJUnitConverter.m */,
 			);
 			path = "Super Unit Converter";
 			sourceTree = "<group>";
@@ -137,8 +151,9 @@
 		840D43EC18CEB83900FE8387 /* Super Unit ConverterTests */ = {
 			isa = PBXGroup;
 			children = (
-				840D43F218CEB83900FE8387 /* Super_Unit_ConverterTests.m */,
+				840D43FC18CEBC4F00FE8387 /* RJUnitConverterTests.m */,
 				840D43ED18CEB83900FE8387 /* Supporting Files */,
+				84113D6F18D2D2CB00844BF7 /* RJFeetToInchesStrategyTest.m */,
 			);
 			path = "Super Unit ConverterTests";
 			sourceTree = "<group>";
@@ -150,6 +165,17 @@
 				840D43EF18CEB83900FE8387 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8428FD6418D1443F002D5A86 /* Converstion Strategy */ = {
+			isa = PBXGroup;
+			children = (
+				8428FD6518D14461002D5A86 /* RJConversionStrategy.h */,
+				8428FD6618D14461002D5A86 /* RJConversionStrategy.m */,
+				8428FD6B18D145A3002D5A86 /* RJFeetToInchesStrategy.h */,
+				8428FD6C18D145A3002D5A86 /* RJFeetToInchesStrategy.m */,
+			);
+			name = "Converstion Strategy";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,9 +276,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				840D440018CEBC9300FE8387 /* RJUnitConverter.m in Sources */,
+				8428FD6D18D145A3002D5A86 /* RJFeetToInchesStrategy.m in Sources */,
 				840D43D818CEB83900FE8387 /* RJAppDelegate.m in Sources */,
 				840D43D418CEB83900FE8387 /* main.m in Sources */,
 				840D43DE18CEB83900FE8387 /* RJViewController.m in Sources */,
+				8428FD6718D14461002D5A86 /* RJConversionStrategy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,7 +289,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				840D43F318CEB83900FE8387 /* Super_Unit_ConverterTests.m in Sources */,
+				840D43FD18CEBC4F00FE8387 /* RJUnitConverterTests.m in Sources */,
+				84113D7018D2D2CB00844BF7 /* RJFeetToInchesStrategyTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -461,6 +491,7 @@
 				840D43F818CEB83900FE8387 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		840D43F918CEB83900FE8387 /* Build configuration list for PBXNativeTarget "Super Unit ConverterTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +500,7 @@
 				840D43FB18CEB83900FE8387 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

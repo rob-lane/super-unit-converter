@@ -20,7 +20,11 @@
 		840D43E818CEB83900FE8387 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 840D43C718CEB83900FE8387 /* Foundation.framework */; };
 		840D43E918CEB83900FE8387 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 840D43CB18CEB83900FE8387 /* UIKit.framework */; };
 		840D43F118CEB83900FE8387 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 840D43EF18CEB83900FE8387 /* InfoPlist.strings */; };
-		840D43F318CEB83900FE8387 /* Super_Unit_ConverterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 840D43F218CEB83900FE8387 /* Super_Unit_ConverterTests.m */; };
+		8444051B18D6497B00D76954 /* RJUnitMapTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8444051A18D6497B00D76954 /* RJUnitMapTests.m */; };
+		8444051D18D649AA00D76954 /* sampleUnitMap.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8444051C18D649AA00D76954 /* sampleUnitMap.plist */; };
+		84D4411C18D3C81D008AF952 /* RJUnit.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D4411B18D3C81D008AF952 /* RJUnit.m */; };
+		84D4411E18D3CF53008AF952 /* RJUnitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D4411D18D3CF53008AF952 /* RJUnitTests.m */; };
+		84D4412118D3DC08008AF952 /* RJUnitMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D4412018D3DC08008AF952 /* RJUnitMap.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,7 +56,13 @@
 		840D43E618CEB83900FE8387 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		840D43EE18CEB83900FE8387 /* Super Unit ConverterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Super Unit ConverterTests-Info.plist"; sourceTree = "<group>"; };
 		840D43F018CEB83900FE8387 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		840D43F218CEB83900FE8387 /* Super_Unit_ConverterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Super_Unit_ConverterTests.m; sourceTree = "<group>"; };
+		8444051A18D6497B00D76954 /* RJUnitMapTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RJUnitMapTests.m; sourceTree = "<group>"; };
+		8444051C18D649AA00D76954 /* sampleUnitMap.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = sampleUnitMap.plist; sourceTree = "<group>"; };
+		84D4411A18D3C81D008AF952 /* RJUnit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RJUnit.h; sourceTree = "<group>"; };
+		84D4411B18D3C81D008AF952 /* RJUnit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RJUnit.m; sourceTree = "<group>"; };
+		84D4411D18D3CF53008AF952 /* RJUnitTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RJUnitTests.m; sourceTree = "<group>"; };
+		84D4411F18D3DC08008AF952 /* RJUnitMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RJUnitMap.h; sourceTree = "<group>"; };
+		84D4412018D3DC08008AF952 /* RJUnitMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RJUnitMap.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +129,10 @@
 				840D43DD18CEB83900FE8387 /* RJViewController.m */,
 				840D43DF18CEB83900FE8387 /* Images.xcassets */,
 				840D43CE18CEB83900FE8387 /* Supporting Files */,
+				84D4411A18D3C81D008AF952 /* RJUnit.h */,
+				84D4411B18D3C81D008AF952 /* RJUnit.m */,
+				84D4411F18D3DC08008AF952 /* RJUnitMap.h */,
+				84D4412018D3DC08008AF952 /* RJUnitMap.m */,
 			);
 			path = "Super Unit Converter";
 			sourceTree = "<group>";
@@ -137,8 +151,10 @@
 		840D43EC18CEB83900FE8387 /* Super Unit ConverterTests */ = {
 			isa = PBXGroup;
 			children = (
-				840D43F218CEB83900FE8387 /* Super_Unit_ConverterTests.m */,
 				840D43ED18CEB83900FE8387 /* Supporting Files */,
+				84D4411D18D3CF53008AF952 /* RJUnitTests.m */,
+				8444051A18D6497B00D76954 /* RJUnitMapTests.m */,
+				8444051C18D649AA00D76954 /* sampleUnitMap.plist */,
 			);
 			path = "Super Unit ConverterTests";
 			sourceTree = "<group>";
@@ -240,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				840D43F118CEB83900FE8387 /* InfoPlist.strings in Resources */,
+				8444051D18D649AA00D76954 /* sampleUnitMap.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,7 +269,9 @@
 			files = (
 				840D43D818CEB83900FE8387 /* RJAppDelegate.m in Sources */,
 				840D43D418CEB83900FE8387 /* main.m in Sources */,
+				84D4412118D3DC08008AF952 /* RJUnitMap.m in Sources */,
 				840D43DE18CEB83900FE8387 /* RJViewController.m in Sources */,
+				84D4411C18D3C81D008AF952 /* RJUnit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,7 +279,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				840D43F318CEB83900FE8387 /* Super_Unit_ConverterTests.m in Sources */,
+				8444051B18D6497B00D76954 /* RJUnitMapTests.m in Sources */,
+				84D4411E18D3CF53008AF952 /* RJUnitTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -461,6 +481,7 @@
 				840D43F818CEB83900FE8387 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		840D43F918CEB83900FE8387 /* Build configuration list for PBXNativeTarget "Super Unit ConverterTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +490,7 @@
 				840D43FB18CEB83900FE8387 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

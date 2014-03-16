@@ -18,9 +18,9 @@
 
 -(RJUnit*) unitAtIndex:(unsigned int) index;
 -(NSString*) labelAtIndex:(unsigned int) index;
+-(unsigned int) count;
 
 -(RJUnit*) unitNamed:(NSString*) name;
 -(void) registerUnit:(RJUnit*) unit withName:(NSString*) name;
--(NSArray*) unitTitles;
 
 @end

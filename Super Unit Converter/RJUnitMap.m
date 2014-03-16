@@ -55,6 +55,10 @@
     return [unitLabels objectAtIndex:index];
 }
 
+-(unsigned int) count {
+    return [unitLabels count];
+}
+
 -(RJUnit*) unitNamed:(NSString *)name {
     return [unitDictionary objectForKey:name];
 }
@@ -65,10 +69,6 @@
         [unitLabels addObject:name];
         [self _sortUnitLabels];
     }
-}
-
--(NSArray*) unitTitles {
-    return [unitDictionary allKeys];
 }
 
 -(void) _sortUnitLabels {
